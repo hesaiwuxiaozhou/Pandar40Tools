@@ -2,7 +2,7 @@
 This project provide the following functions:
 ```
 1. Lidar data parser of Pandar40.
-2. Indensity of Lidar data to RGB convertion.
+2. Convertion of Indensity in Lidar data to RGB .
 ```
 
 # Usage
