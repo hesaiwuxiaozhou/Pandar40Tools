@@ -7,16 +7,16 @@ include_directories(
 )
 
 if(CMAKE_CURRENT_LIST_DIR STREQUAL CMAKE_SOURCE_DIR)
-	add_executable(testIndensity
-		test/indensity2RGB.c
+	add_executable(testIntensity
+		test/intensity2RGB.cpp
 	)
 
-	target_link_libraries(testIndensity
+	target_link_libraries(testIntensity
 		LidarTools
 	)
 endif()
 
 add_library(${PROJECT_NAME}
 		LidarDataParser.c
-		LidarIndensity2RGB.c
+		LidarIntensity2RGB.c
 )

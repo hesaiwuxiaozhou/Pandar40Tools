@@ -1,6 +1,11 @@
 #ifndef _LIDAR_DATA_PASER_H
 #define _LIDAR_DATA_PARSER_H
 
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
 // Start of Packet & Packet Angle size , SOF 2bytes , Angle 2 bytes
 #define HS_LIDAR_L40_SOP_ANGLE_SIZE (4)
 // Unit size = distance(3bytes) + reflectivity(2bytes) for each Line
@@ -141,5 +146,9 @@ static float hesai_horizatal_azimuth_offset_map[] = {
 -2.46,
 -2.457
 };
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

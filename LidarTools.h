@@ -2,6 +2,6 @@
 #define _LIDAR_TOOLS_H
 
 #include "LidarDataParser.h"
-#include "LidarIndensity2RGB.h"
+#include "LidarIntensity2RGB.h"
 
 #endif
