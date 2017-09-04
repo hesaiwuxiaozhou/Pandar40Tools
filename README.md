@@ -15,7 +15,7 @@ make
 You can run the testing tools.
 
 Embed to your project:
-1. add following cmake code to your CMakeLists.txt:
+1. Add following cmake code to your CMakeLists.txt:
 ```
 add_subdirectory(Pandar40Tools)
 ...
@@ -31,5 +31,5 @@ target_link_libraries(${your_project}
 ```
 After that, you can invoke all the tools in Pandar40Tools.
 
-# Lience
+# Licence
 Totally free!!!
