@@ -1,4 +1,4 @@
-#define [LASER_COUNT (40)
+#define LASER_COUNT (40)
 #define BLOCKS_PER_PACKET (6)
 static double block_offset[BLOCKS_PER_PACKET];
 static double laser_offset[LASER_COUNT];
