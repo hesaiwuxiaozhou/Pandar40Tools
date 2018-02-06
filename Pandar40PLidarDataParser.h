@@ -35,7 +35,7 @@ extern "C"
  * Pandar40-Dual data type
  */
 typedef struct HS_Pandar40P_Unit_s{
-    unsigned int distance; // *2mm , real distance =  distance * 2 mm; max distance: (2^24 â€?1) * 2mm = 33554.43m
+    unsigned int distance; // *4mm , real distance =  distance * 4 mm;
     unsigned short reflectivity; // reflectivity
 }HS_Pandar40P_Unit;
 
