@@ -1,7 +1,7 @@
 # Pandar40Tools
 This project provide the following functions:
 ```
-1. Lidar data parser of Pandar40.
+1. Lidar data parser of Pandar40&Pandar40P.
 2. Convertion of Intensity in Lidar data to RGB .
 ```
 
