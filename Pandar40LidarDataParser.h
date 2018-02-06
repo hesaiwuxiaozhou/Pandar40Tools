@@ -1,5 +1,5 @@
-#ifndef _LIDAR_DATA_PASER_H
-#define _LIDAR_DATA_PARSER_H
+#ifndef _Pandar40LidarDataParser_H
+#define _Pandar40LidarDataParser_H
 
 #ifdef __cplusplus
 extern "C"

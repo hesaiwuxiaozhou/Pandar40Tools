@@ -17,6 +17,7 @@ if(CMAKE_CURRENT_LIST_DIR STREQUAL CMAKE_SOURCE_DIR)
 endif()
 
 add_library(${PROJECT_NAME}
-		LidarDataParser.c
+		Pandar40LidarDataParser.c
+		Pandar40PLidarDataParser.c
 		LidarIntensity2RGB.c
 )
