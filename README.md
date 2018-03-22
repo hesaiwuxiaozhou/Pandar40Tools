@@ -20,7 +20,7 @@ Embed to your project:
 add_subdirectory(Pandar40Tools)
 ...
 target_link_libraries(${your_project}
-	Pandar40Tools
+	LidarTools
 )
 ```
 
