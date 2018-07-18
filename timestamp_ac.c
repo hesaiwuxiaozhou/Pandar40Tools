@@ -6,7 +6,7 @@ static double laser_offset[LASER_COUNT];
 void GenerateTimeOffset()
 {
     for (int i = 0; i < BLOCKS_PER_PACKET; i++) {
-        block_offset[i] = 55.56f * i;
+        block_offset[i] = 55.56f * (i - BLOCKS_PER_PACKET);
     }
 
     laser_offset[7]  = 0;
@@ -50,3 +50,5 @@ void GenerateTimeOffset()
     laser_offset[36] = 0.93f * 18 + 1.6f * 20;
     laser_offset[4]  = 0.93f * 19 + 1.6f * 20;
 }
+
+
