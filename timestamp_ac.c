@@ -51,4 +51,7 @@ void GenerateTimeOffset()
     laser_offset[4]  = 0.93f * 19 + 1.6f * 20;
 }
 
+double CalculateTimestamp(double timestamp_us, int block, int laser) {
+    return timestamp_us + block_offset[block] + laser_offset[laser];
+}
 
