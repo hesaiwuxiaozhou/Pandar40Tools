@@ -1,12 +1,18 @@
 #define LASER_COUNT (40)
 #define BLOCKS_PER_PACKET (10)
+#define SINGLE_MODE (0)
+#define DUAL_MODE (1)
 static double block_offset[BLOCKS_PER_PACKET];
 static double laser_offset[LASER_COUNT];
 
-void GenerateTimeOffset()
-{
+void GenerateTimeOffset(int mode) {
     for (int i = 0; i < BLOCKS_PER_PACKET; i++) {
-        block_offset[i] = 55.56f * (i - BLOCKS_PER_PACKET);
+        if (SINGLE_MODE == mode) {
+            block_offset[i] = 55.56f * i;
+        } else if (DUAL_MODE == mode) {
+            block_offset[i] = 55.56f * (i / 2);
+        }
+        
     }
 
     laser_offset[7]  = 0;
